@@ -7,7 +7,7 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-color);
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -37,7 +37,7 @@ body {
 
 
 /* Navigation */
-.site-nav .link {
+.site-nav-link {
   text-decoration: none;
   list-style: none;
   color: var(--title-color);
@@ -45,16 +45,16 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 }
 .contacts a {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
-  ;
 }
 .contacts-info:hover,
 .contacts-info:focus {
@@ -77,29 +77,32 @@ line-height: 1.4;
 letter-spacing: 0.06em;
 }
 /* Button */
-.button {
-  color: var(--title-color);
+.hero-button {
+color: var(--primary-white-color);
+background-color: var(--accent-color);
   cursor: pointer;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
+letter-spacing: 0.06em;
 }
-.filter.button{
+.filter-button{
+  color: var(--title-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
 
 }
 
-.button:hover,
-.button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.button.accent {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
+
 /* Features */
 .visually-hidden {
   position: absolute;
@@ -140,6 +143,14 @@ line-height: 1.2;
     letter-spacing: 0.06em;
 }
 
+/* Our team */
+.team {
+  background-color:rgba(245, 244, 250, 1);
+  /* display: flex; */
+}
+.team-member {
+  text-align: center;
+}
 /* Footer */
 .footer {
   background: rgba(47, 48, 58, 1);
@@ -151,22 +162,21 @@ line-height: 1.2;
   text-decoration: none;
   
 }
-.list .address-street {
+.address-street-list {
   color: rgba(255, 255, 255, 1);
   font-style: normal;
   
 }
-.contacts-footer {
+.footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   
 }
-.address-street:hover,
-.address-street:focus,
-.contacts-footer:hover,
-.contacts-footer:focus {
+.address-street-list:hover,
+.address-street-list:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
   color: var(--accent-color);
 }
 /* PORTFOLIO */
-.portfolio {
-}
+
