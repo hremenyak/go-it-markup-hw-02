@@ -3,6 +3,7 @@
   --title-color: rgba(33, 33, 33, 1);
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --primary-fw-title: 700;
 }
 body {
   background-color: var(--primary-white-color);
@@ -81,7 +82,7 @@ letter-spacing: 0.06em;
 color: var(--primary-white-color);
 background-color: var(--accent-color);
   cursor: pointer;
-font-weight: 700;
+font-weight: var(--primary-fw-title);
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.06em;
@@ -118,14 +119,14 @@ cursor: pointer;
 .features-title {
   color: var(--title-color);
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: var(--primary-fw-title);
 font-size: 14px;
 line-height: 1.5;
 }
 /* Our work */
 .section-title {
   color: var(--title-color);
-  font-weight: 700;
+  font-weight: var(--primary-fw-title);
 font-size: 36px;
 line-height: 1.2;
 }
@@ -137,7 +138,7 @@ line-height: 1.2;
 }
 .cardset-title{
     color: var(--title-color);
-    font-weight: 700;
+    font-weight: var(--primary-fw-title);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
